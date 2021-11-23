@@ -1,13 +1,12 @@
 package ru.netology.web;
 
-import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 
-public class CallBackOrder {
 
+public class CallBackOrder {
     @Test
     void shouldTestMyOwnData() {
         open("http://localhost:9999");
